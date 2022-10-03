@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Yeong's Market</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="Board.html">
+		<div class="index_screen">
+			<input id="mode" type="button" value="다크모드" style="float: right"
+				onclick=changeMode();>
+			<div id="char">
+				<h1>어서오세요</h1>
+				<h1 style="color: orange"><b>Yeong's Market</b></h1>
+				<h1>입니다.</h1>
+			</div>
+		</div>
+
+		<!-- 버튼에 링크달기 -->
+		<div class="indexbtn_box">
+			<div id="indexbtn">
+				<input type="submit" value="게시판"> 
+				<input type="submit" value="로그인" formaction="Login.html">
+				<input type="submit" value="회원가입" formaction="Join.html">
+			</div>
+		</div>
+		<script>
+function changeMode() {
+	var mode = document.getElementById("mode").value;
+	
+	if ( mode == "다크모드" ){
+		darkMode();
+	} else {
+		dayMode();
+	}
+}
+function darkMode() {
+	document.getElementById("mode").value="데이모드" //버튼이름 변경
+	document.body.style.backgroundColor="black"; //배경컬러 변경
+	document.getElementsByClassName("index_screen")[0].style.color="white"; //글자색상 변경
+}
+
+function dayMode() {
+	document.getElementById("mode").value="다크모드" //버튼이름 변경
+	document.body.style.backgroundColor="white"; //배경컬러 변경
+	document.getElementsByClassName("index_screen")[0].style.color="black"; //글자생상 변경
+}
+</script>
+	</form>
+</body>
+</html>

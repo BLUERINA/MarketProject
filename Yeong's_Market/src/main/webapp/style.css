@@ -1,0 +1,103 @@
+@charset "EUC-KR";
+
+.index_screen {
+	text-align:center;
+	
+}
+
+#char {
+  	 display: inline-block;
+  	 margin : 150px 0px 0px 80px;
+}
+
+.indexbtn_box {
+	text-align:center;
+	margin : 50px;
+}
+
+#indexbtn{
+	display:inline-block;
+	
+}
+
+li {
+	list-style: none;
+}
+
+#welcome_tx{
+	text-align: center;
+}
+
+#loginBox{
+	/*
+	width:500px;
+	height:300px;
+	background-Color:lightgray;
+	border:2px solid black;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-150px 0px 0px -200px;
+	text-align:center;	
+	
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	transform : translate (-50%, -50%);
+	*/
+	width:400px;
+	height:400px;
+	background-Color:#FFF56E;
+	border:2px solid black;
+	
+		  /* ╩С    ©Л   го    аб */
+	margin:150px 0px 0px 550px;
+	text-align:center;	
+	
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	transform : translate (-50%, -50%);
+}
+
+#boardBox{
+	width:500px; 
+	height:500px;
+	background-Color:#FFF56E;
+	border:2px solid black;
+	
+	      /* ╩С    ©Л   го    аб */
+	margin:100px 0px 0px 510px;
+	text-align:center;	
+	
+	justify-content : center;
+	align-items : center;	
+}
+
+#board{
+	width:300px; 
+	height:300px;
+	text-align:left;
+	margin:0px 0px 0px 100px;
+}
+
+#joinBox{
+	width:500px; 
+	height:500px;
+	background-Color:#FFF56E;
+	border:2px solid black;
+	
+	      /* ╩С    ©Л   го    аб */
+	margin:100px 0px 0px 510px;
+	text-align:center;	
+	
+	justify-content : center;
+	align-items : center;	
+}
+
+#join_tx{
+	width:400px; 
+	height:300px;
+	text-align:left;
+	margin:50px 0px 0px 80px;
+}

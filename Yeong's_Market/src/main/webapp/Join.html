@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Join</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="Welcome.html">
+	<div id="joinBox">
+		<br><h2>회원가입</h2>
+			<div id="join_tx">
+		<ul>
+			<li>I D : <input id="inputId" type="text" placeholder="아이디입력" name="ID"
+				required> <input type="button" value="중복체크" onclick=idCheck()></li><br>
+			<li>P W : <input type="password" placeholder="패스워드입력" name="PW"
+				required><br></li><br>
+			<li>이 름 : <input type="text" placeholder="이름입력" name="NAME"
+				required><br></li><br>
+			<li>성 별 : 
+				<input type="radio" name="M">남성 
+				<input type="radio" name="W">여성<br><br></li>
+			<li>연락처 : 
+				<input type="tel" placeholder="번호입력" name="TEL"
+				required><br><br></li>
+			<li>&nbsp;<b>&nbsp;스타일 &nbsp; (&nbsp;중복체크 가능&nbsp;)</b><br></li>	
+		</ul>
+		
+		<input type="checkbox" name="daywear">일상복 
+		<input type="checkbox" name="officeLook">오피스룩
+		<input type="checkbox" name="kidswear">아동복 
+		<input type="checkbox" name="sportswear">운동복<br>
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		
+		<input type="submit" value="회원가입">
+		<input type="submit" value="뒤로가기">
+</div>
+</div>
+	</form>
+	
+<script src="style.js" charset="UTF-8" ></script>
+</body>
+</html>
